@@ -1,0 +1,26 @@
+#
+# Build set for EPICS
+#
+
+%define release 1
+
+#
+# RTEMS Version
+#
+%define rtems_version 5
+
+#
+# The RTEMS URL paths.
+#
+%include rtems-urls.bset
+
+#
+# The RTEMS Package defines
+#
+%include rtems-package.bset
+
+
+#
+# Build EPICS.
+#
+epics/epics-7-1.cfg
